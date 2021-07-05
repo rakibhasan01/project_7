@@ -1,0 +1,90 @@
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family: Ubuntu-Light;
+	src: url(../fonts/ubuntu/Ubuntu-Light.ttf);
+}
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*common end*/
+
+ /*header start*/
+ header{
+ 	padding: 30px 0;
+ 	
+ }
+ .container{
+ 	margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+    /* border: 1px solid;*/
+ 	
+ }
+ .logo{
+ 	margin-top: 10px;
+ 	width: 12%;
+    /*border: 1px solid red;*/
+    float: left;
+ 	
+ }
+ .logo a{}
+ .logo a img{
+ 	width: 100%;
+ 	
+ }
+ .menu{
+ 	width: 70%;
+    /*border: 1px solid red;*/
+    float: right;
+ 
+ }
+ .menu ul{
+ 	list-style: none;
+    float: right;
+ 
+ }
+ .menu ul li{
+ 	float: left;
+ 	
+ }
+ .menu ul li a{
+ 	margin: 0 60px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	
+ }
+.menu ul li:last-child a {
+	margin-right: 0;
+    
+ 	
+ }
+ .menu ul li a:hover{
+ 	color: #000000;
+ 	
+ }
+
+/*header end*/
